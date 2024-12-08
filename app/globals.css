@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  @apply w-[400px] border-gray-200 py-2 px-6 bg-zinc-100/40;
+}
+
+
+.video-background{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
+  transform: translate(-50% , -50%);
+}
+
